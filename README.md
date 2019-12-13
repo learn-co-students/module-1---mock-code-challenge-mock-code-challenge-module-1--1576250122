@@ -16,7 +16,7 @@ We'd like for you build out the following methods for each class. As you work, w
 
 #### Passenger
 A Passenger should be initialized with a name as a string. After the Passenger has been initialized, it shouldn't be changed.
-- `Passenger#name`
+<!-- - `Passenger#name`
   - Returns the name of the passenger
 - `Passenger#rides`
   - Returns an array of Ride instances that this person has been on
@@ -25,13 +25,13 @@ A Passenger should be initialized with a name as a string. After the Passenger h
 - `Passenger#total_distance`
   - Returns the floating number that represents the total distance the passenger has travelled using the service
 - `Passenger.all`
-  - Returns an array of all Passengers
+  - Returns an array of all Passengers -->
 - `Passenger.premium_members`
   - Returns an array of all Passengers who have travelled over 100 miles in total with the service
 
 #### Ride
 A Ride should be initialized with a driver (as a Driver object), a passenger (as a Passenger object), and a distance (as a float i.e. `3.2`). The distance refers to miles.
-- `Ride#passenger`
+<!-- - `Ride#passenger`
   - Returns the Passenger object for that ride
 - `Ride#driver`
   - Returns the Driver object for that ride
@@ -39,9 +39,9 @@ A Ride should be initialized with a driver (as a Driver object), a passenger (as
   - Returns the distance of the ride
 - `Ride.average_distance`
   - Returns the average distance across ALL rides
-  
+   -->
 #### Driver
-A Driver should be initialized with a name as a string.
+<!-- A Driver should be initialized with a name as a string.
 - `Driver#name`
   - Returns the driver's name
 - `Driver#passenger_names`
@@ -49,7 +49,7 @@ A Driver should be initialized with a name as a string.
 - `Driver#rides`
   - Returns an array of all Rides a driver has made
 - `Driver.all`
-  - Returns an array of all Drivers
+  - Returns an array of all Drivers -->
 - `Driver.mileage_cap(distance)`
   - Takes an argument of a distance (float) and returns an array of all Drivers who have driven over the mileage
 
